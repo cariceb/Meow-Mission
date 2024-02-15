@@ -1,7 +1,11 @@
-// class Kattenvoer
+// public class Item
 // {
-// public int Weight { get; }
-// public string Description { get; }
-// public Kattenvoer(int weight, string description)
-//  void kattenvoer() { }
+//     public int Weight { get; }
+//     public string Kattenvoer { get; }
+
+//     public Item(int weight, string description)
+//     {
+//         Weight = weight;
+//         Kattenvoer = description;
+//     }
 // }

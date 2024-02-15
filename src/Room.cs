@@ -70,4 +70,14 @@ class Room
 
 		return str;
 	}
+
+    internal void AddItem(Game.Item kattenvoer)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal void ShowItems()
+    {
+        throw new NotImplementedException();
+    }
 }
