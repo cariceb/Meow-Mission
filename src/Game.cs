@@ -26,8 +26,7 @@ class Game
         // Initialise room exits
         camp.AddExit("east", bushes);
 
-        Item kattenvoer = new Item(2, "Een zak kattenvoer.");
-        bushes.AddItem(kattenvoer);
+        
 
         camp.AddExit("south", darkForrest);
         camp.AddExit("west", river);
@@ -47,17 +46,6 @@ class Game
     }
 
 
-public class Item
-{
-    public int Weight { get; }
-    public string Kattenvoer { get; }
-
-    public Item(int weight, string description)
-    {
-        Weight = weight;
-        Kattenvoer = description;
-    }
-}
 
     public void Play()
     {
